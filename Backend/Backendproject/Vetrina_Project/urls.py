@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-#from Vetrina_App.views import api1_chat
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),

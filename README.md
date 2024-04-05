@@ -5,8 +5,7 @@
 #### - ***Create your `new branch` where you will work.***
 #### - ***Verify your branch before you make any changes in the code.***
 
-#### - ***Run phpmyadmin and create DB named ```baapgpt_db```***
-#### - ***Import `users.sql` table present in parent folder of BAAPGPT to your phpmyadmin's `baapgpt_db`***
+#### - ***Run phpmyadmin and create DB named ```vetrina_scm```***
 ### 2. Open terminal and run following commands:
 ```bash
 1. cd Backend/Backendproject

@@ -61,7 +61,7 @@ ROOT_URLCONF = 'Vetrina_Project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'TDTL/TMaaS')],
+        'DIRS': [os.path.join(BASE_DIR,'TDTL/Vetrina-SCM`')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -99,7 +99,7 @@ DEFAULT_FROM_EMAIL = 'pr@tdtl.world'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'baapgpt_db',
+        'NAME': 'vetrina_scm`',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',  # or your database host
@@ -113,7 +113,7 @@ DATABASES = {
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "baapgpt_db",
+#         "NAME": "vetrina_scm`",
 #         "USER": "dbmasteruser",
 #         "PASSWORD": "123456789",
 #         "HOST": "ls-0015a179f2d407e43ff2c697687b72d50d0ce79e.cwrfbixeaner.ap-south-1.rds.amazonaws.com",
@@ -159,7 +159,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS =[
-  os.path.join(BASE_DIR, 'TDTL/TMaaS/static')
+  os.path.join(BASE_DIR, 'TDTL/Vetrina-SCM/static')
 
 ]
 
