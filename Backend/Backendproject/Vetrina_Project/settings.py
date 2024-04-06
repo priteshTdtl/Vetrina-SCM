@@ -99,7 +99,7 @@ DEFAULT_FROM_EMAIL = 'pr@tdtl.world'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vetrina_scm`',
+        'NAME': 'vetrina_scm',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',  # or your database host
@@ -113,7 +113,7 @@ DATABASES = {
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "vetrina_scm`",
+#         "NAME": "vetrina_scm",
 #         "USER": "dbmasteruser",
 #         "PASSWORD": "123456789",
 #         "HOST": "ls-0015a179f2d407e43ff2c697687b72d50d0ce79e.cwrfbixeaner.ap-south-1.rds.amazonaws.com",
@@ -158,10 +158,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS =[
-  os.path.join(BASE_DIR, 'TDTL/Vetrina-SCM/static')
-
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'Vetrina_App', 'static')
 ]
+
 
 
 # Default primary key field type
